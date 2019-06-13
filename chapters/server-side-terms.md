@@ -13,19 +13,19 @@ We used or talked about everything in this document, at least briefly. Here are 
 ### 2. C#, .NET, .NET Core, ASP.NET, ADO.NET, Entity
 
 ##### Language vs. Framework
-- *C#* is the programming language that runs on the *.NET framework*. 
+- **C#** is the programming language that runs on the **.NET framework**. 
 - [Without .NET, C# is just a bunch of syntax rules.](https://www.quora.com/What-would-C-be-without-the-NET-Framework) 
 - .NET gives us a set of class libraries (any time we add `using System.Whatever` we're leveraging .NET)
 - The .NET framework can be used with other languages (F# and Visual Basic)
 ![diagram of .NET](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/DotNet.svg/1024px-DotNet.svg.png)
-- From around 2000 to 2014, .NET only ran on windows. In 2014, Microsoft released *.NET Core*, a cross-platform and open-source version of .NET. We've used .NET Core for the entire server-side part of the course.
-- *ASP.NET* extends the .NET framework with tooling for building web apps. This includes both APIs and MVC web apps. The only things we built that _weren't_ in ASP.NET were the console apps from way back in the first few weeks.
+- From around 2000 to 2014, .NET only ran on windows. In 2014, Microsoft released **.NET Core**, a cross-platform and open-source version of .NET. We've used .NET Core for the entire server-side part of the course.
+- **ASP.NET** extends the .NET framework with tooling for building web apps. This includes both APIs and MVC web apps. The only things we built that _weren't_ in ASP.NET were the console apps from way back in the first few weeks.
 
 ##### Data Access Tools
-- ADO.NET is a tool for interfacing with a database that comes built in with .NET. It's very fast and has almost no abstraction (aka black magic). When we used syntax like ` SqlDataReader reader = cmd.ExecuteReader();` and `reader.Read()`, that was ADO.NET. 
+- **ADO.NET** is a tool for interfacing with a database that comes built in with .NET. It's very fast and has almost no abstraction (aka black magic). When we used syntax like ` SqlDataReader reader = cmd.ExecuteReader();` and `reader.Read()`, that was ADO.NET. 
     - Developer writes raw SQL
     - Developer handles mapping data that comes back from db to models (for example, if you get a bunch of rows of student data back from the database, you have to loop through the rows of data and build individual instances of a `Student` model and add them to a list)
-- Entity Framework is an ORM (Object Relational Mapper) that is built on top of ADO.NET. It's heavily abstracted, less efficient, but faster to write and read.
+- **Entity Framework** is an ORM (Object Relational Mapper) that is built on top of ADO.NET. It's heavily abstracted, less efficient, but faster to write and read.
     - Developer writes Linq queries, Entity translates them into SQL
     - Entity handles mapping the data that comes back from the database to your models
 - We also (very briefly!) talked about Dapper, which we didn't use. Dapper is a lightweight ORM between ADO.NET and Entity. 
@@ -36,7 +36,7 @@ We used or talked about everything in this document, at least briefly. Here are 
 
 
 ### 4. HTTP Requests
-- HTTP stands for hypertext transfer protocol. It enables a client to communicate with a server. HTTP gives clients and servers a common language.
+- HTTP stands for **hypertext transfer protocol**. It enables a client to communicate with a server. HTTP gives clients and servers a common language.
 - You might have a client written in JavaScript and a server written and C#. HTTP is the universal language that allows them to send requests and responses to each other even though they're built in different languages.
 - HTTP verbs include `GET`, `POST`, etc.
 
