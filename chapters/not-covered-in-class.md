@@ -20,6 +20,8 @@ Here's what each letter stands for:
 
 The only one we've  touched in class is the **Single Responsibility Principle**, which we've used to some degree every time we've modularized code. [You can read about it in more detail here](https://codeburst.io/understanding-solid-principles-single-responsibility-b7c7ec0bf80).
 
+It's probably worth your time to google each of these briefly, just to the point of vague familiarity, but don't fixate on them. They're for more complex systems than we've ever worked with, so you won't have any frame of reference for them. If these come up on an interview, remember that it's just one question. Not knowing these as a junior developer shouldn't be a deal breaker. 
+
 ### 2. Generics
 coming soon!
 
