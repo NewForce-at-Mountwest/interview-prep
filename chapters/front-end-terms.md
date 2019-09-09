@@ -290,3 +290,6 @@ A class based component is what we're more used to seeing in this course. It inh
 1. A feature of an app is something the user can do. When we talk about features, we're talking about things from the user's perspective, not the developer's.
 1. Your tickets (or user stories) should represent features of the app- one ticket per feature.
 
+# Videos
+[Angular vs. React](https://www.youtube.com/watch?v=pVbcAafEzDc)
+
