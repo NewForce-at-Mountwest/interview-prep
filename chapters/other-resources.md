@@ -8,7 +8,7 @@
 
 # Articles
 - [Why relational databases?](https://www.linkedin.com/learning/filemaker-relational-database-design/why-relational-databases)
-- [Tips for success in jr dev interviews] (https://www.codementor.io/learn-programming/junior-developer-interview-tips-to-success)
+- [Tips for success in jr dev interviews](https://www.codementor.io/learn-programming/junior-developer-interview-tips-to-success)
 
 # Technical Interview Practice
 - [Codewars](https://www.codewars.com/)
