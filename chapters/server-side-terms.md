@@ -132,6 +132,10 @@ When we access `fido.kingdom`, the JavaScript engine looks for a property named 
 
 
 
+# Videos to watch
+[MVC Explained for Beginners](https://www.youtube.com/watch?v=TuH_lqeDnUc)
+[REST API Explained for Beginners](https://www.youtube.com/watch?v=qVTAB8Z2VmA)
+[How the internet works](https://www.youtube.com/watch?v=7_LPdttKXPc)
 
 
 
